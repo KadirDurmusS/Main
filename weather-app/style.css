@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(image/Background-image.jpg);
+
+
+}
+
+h1 {
+    color: rgb(0, 234, 255);
+    margin-top: 6.25rem;
+    font-size: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {}
+
+.form input {
+    border: 0;
+    border-bottom: .0625rem solid rgb(0, 255, 247);
+    height: 2.5rem;
+    width: 31.25rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+    margin-top: .625rem;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.form input::placeholder {
+    text-align: center;
+    font-size: 1.125rem;
+    color: aliceblue;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.btnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDiv .btn {
+    background-color: transparent;
+    border: .0625rem solid rgb(255, 255, 255);
+    color: rgb(0, 229, 255);
+    padding: .25rem 2.25rem .0625rem 2.25rem;
+    font-size: 1.125rem;
+    margin-top: 2.5rem;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+.btnDiv .btn:hover {
+    color: rgb(255, 255, 255);
+    border: .0625rem solid rgb(0, 233, 254);
+}
+
+.info {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.75rem;
+}
+
+.info #sehir {
+    color: aliceblue;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+.genelDeger {
+    display: flex;
+    column-gap: .125rem;
+    font-size: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+#havaDurumu {
+    color: aliceblue;
+    font-size: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.his {
+    color: aliceblue;
+    display: flex;
+    column-gap: .125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
